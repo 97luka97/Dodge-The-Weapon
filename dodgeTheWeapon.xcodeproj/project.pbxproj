@@ -7,27 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0572BDD1ECDD6A30024F363 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = D0572BDC1ECDD6A30024F363 /* background-music-aac.caf */; };
+		D0572C011ED369970024F363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0572C001ED369970024F363 /* Assets.xcassets */; };
+		D0572C471ED6D6050024F363 /* images-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0572C461ED6D6050024F363 /* images-2.jpg */; };
 		D064E4B21EC8D8130029E7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064E4B11EC8D8130029E7A7 /* AppDelegate.swift */; };
-		D064E4B41EC8D8130029E7A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D064E4B31EC8D8130029E7A7 /* GameScene.sks */; };
 		D064E4B61EC8D8130029E7A7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D064E4B51EC8D8130029E7A7 /* Actions.sks */; };
-		D064E4B81EC8D8130029E7A7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064E4B71EC8D8130029E7A7 /* GameScene.swift */; };
 		D064E4BA1EC8D8130029E7A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064E4B91EC8D8130029E7A7 /* GameViewController.swift */; };
 		D064E4BD1EC8D8130029E7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064E4BB1EC8D8130029E7A7 /* Main.storyboard */; };
-		D064E4BF1EC8D8130029E7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D064E4BE1EC8D8130029E7A7 /* Assets.xcassets */; };
 		D064E4C21EC8D8130029E7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064E4C01EC8D8130029E7A7 /* LaunchScreen.storyboard */; };
+		D064E4CB1EC8D91F0029E7A7 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = D064E4CA1EC8D91F0029E7A7 /* MainMenu.sks */; };
+		D064E4D01EC8D99F0029E7A7 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064E4CF1EC8D99F0029E7A7 /* MainMenuScene.swift */; };
+		D0CF10811EC9E90F002E5236 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D0CF10801EC9E90F002E5236 /* GameplayScene.sks */; };
+		D0CF10831EC9F52D002E5236 /* GameplaySceneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF10821EC9F52D002E5236 /* GameplaySceneClass.swift */; };
+		D0CF10861ECA00F2002E5236 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF10851ECA00F2002E5236 /* Player.swift */; };
+		D0CF108B1ECA0C0B002E5236 /* WeaponController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF108A1ECA0C0B002E5236 /* WeaponController.swift */; };
+		D0CF108D1ECAFA71002E5236 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0CF108C1ECAFA71002E5236 /* hit.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0572BDC1ECDD6A30024F363 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		D0572C001ED369970024F363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0572C461ED6D6050024F363 /* images-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpg"; sourceTree = "<group>"; };
 		D064E4AE1EC8D8130029E7A7 /* dodgeTheWeapon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dodgeTheWeapon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D064E4B11EC8D8130029E7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D064E4B31EC8D8130029E7A7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D064E4B51EC8D8130029E7A7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		D064E4B71EC8D8130029E7A7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D064E4B91EC8D8130029E7A7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D064E4BC1EC8D8130029E7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D064E4BE1EC8D8130029E7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D064E4C11EC8D8130029E7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D064E4C31EC8D8130029E7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D064E4CA1EC8D91F0029E7A7 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		D064E4CF1EC8D99F0029E7A7 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		D0CF10801EC9E90F002E5236 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		D0CF10821EC9F52D002E5236 /* GameplaySceneClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplaySceneClass.swift; sourceTree = "<group>"; };
+		D0CF10851ECA00F2002E5236 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D0CF108A1ECA0C0B002E5236 /* WeaponController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponController.swift; sourceTree = "<group>"; };
+		D0CF108C1ECAFA71002E5236 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +74,40 @@
 		D064E4B01EC8D8130029E7A7 /* dodgeTheWeapon */ = {
 			isa = PBXGroup;
 			children = (
+				D0CF108F1ECB6478002E5236 /* MainMenu */,
+				D0CF108E1ECB6470002E5236 /* Gameplay */,
+				D0CF108A1ECA0C0B002E5236 /* WeaponController.swift */,
+				D0CF10851ECA00F2002E5236 /* Player.swift */,
 				D064E4B11EC8D8130029E7A7 /* AppDelegate.swift */,
-				D064E4B31EC8D8130029E7A7 /* GameScene.sks */,
 				D064E4B51EC8D8130029E7A7 /* Actions.sks */,
-				D064E4B71EC8D8130029E7A7 /* GameScene.swift */,
 				D064E4B91EC8D8130029E7A7 /* GameViewController.swift */,
 				D064E4BB1EC8D8130029E7A7 /* Main.storyboard */,
-				D064E4BE1EC8D8130029E7A7 /* Assets.xcassets */,
+				D0572C001ED369970024F363 /* Assets.xcassets */,
 				D064E4C01EC8D8130029E7A7 /* LaunchScreen.storyboard */,
 				D064E4C31EC8D8130029E7A7 /* Info.plist */,
+				D0CF108C1ECAFA71002E5236 /* hit.mp3 */,
+				D0572BDC1ECDD6A30024F363 /* background-music-aac.caf */,
+				D0572C461ED6D6050024F363 /* images-2.jpg */,
 			);
 			path = dodgeTheWeapon;
+			sourceTree = "<group>";
+		};
+		D0CF108E1ECB6470002E5236 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				D0CF10801EC9E90F002E5236 /* GameplayScene.sks */,
+				D0CF10821EC9F52D002E5236 /* GameplaySceneClass.swift */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		D0CF108F1ECB6478002E5236 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D064E4CA1EC8D91F0029E7A7 /* MainMenu.sks */,
+				D064E4CF1EC8D99F0029E7A7 /* MainMenuScene.swift */,
+			);
+			name = MainMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +142,7 @@
 				TargetAttributes = {
 					D064E4AD1EC8D8130029E7A7 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B634WJ46GF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,11 +170,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0572BDD1ECDD6A30024F363 /* background-music-aac.caf in Resources */,
 				D064E4BD1EC8D8130029E7A7 /* Main.storyboard in Resources */,
-				D064E4B41EC8D8130029E7A7 /* GameScene.sks in Resources */,
-				D064E4BF1EC8D8130029E7A7 /* Assets.xcassets in Resources */,
+				D0CF108D1ECAFA71002E5236 /* hit.mp3 in Resources */,
+				D0572C011ED369970024F363 /* Assets.xcassets in Resources */,
 				D064E4C21EC8D8130029E7A7 /* LaunchScreen.storyboard in Resources */,
+				D064E4CB1EC8D91F0029E7A7 /* MainMenu.sks in Resources */,
+				D0CF10811EC9E90F002E5236 /* GameplayScene.sks in Resources */,
 				D064E4B61EC8D8130029E7A7 /* Actions.sks in Resources */,
+				D0572C471ED6D6050024F363 /* images-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D064E4B81EC8D8130029E7A7 /* GameScene.swift in Sources */,
+				D064E4D01EC8D99F0029E7A7 /* MainMenuScene.swift in Sources */,
+				D0CF108B1ECA0C0B002E5236 /* WeaponController.swift in Sources */,
 				D064E4BA1EC8D8130029E7A7 /* GameViewController.swift in Sources */,
 				D064E4B21EC8D8130029E7A7 /* AppDelegate.swift in Sources */,
+				D0CF10861ECA00F2002E5236 /* Player.swift in Sources */,
+				D0CF10831EC9F52D002E5236 /* GameplaySceneClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +317,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B634WJ46GF;
 				INFOPLIST_FILE = dodgeTheWeapon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kostic.dodgeTheWeapon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -284,11 +331,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B634WJ46GF;
 				INFOPLIST_FILE = dodgeTheWeapon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kostic.dodgeTheWeapon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -311,6 +360,7 @@
 				D064E4C81EC8D8130029E7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
